@@ -345,7 +345,7 @@ export function checkImage(file) {
   if (!valid) {
     return {
       ok: false,
-      msg: `由于公众号限制，图片大小不能超过 ${maxSize}M`,
+      msg: `由于微信公众号限制，图片大小不能超过 ${maxSize}M`,
     }
   }
   return { ok: true }

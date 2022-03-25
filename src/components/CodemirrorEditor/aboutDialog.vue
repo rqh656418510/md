@@ -11,7 +11,7 @@
       <h3>一款高度简洁的微信 Markdown 编辑器</h3>
     </div>
     <div style="text-align: center; margin-top: 10px">
-      <p>扫码关注我的公众号，第一时间推送全栈开发的最新技术和最新动态！</p>
+      <p>扫码关注我的微信公众号，第一时间推送全栈开发的最新动态！</p>
       <img
         src="https://www.techgrow.cn/img/wx_mp_qr.png"
         style="width: 40%; display: block; margin: 20px auto 10px"

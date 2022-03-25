@@ -102,7 +102,7 @@ random：每篇文章随机添加微信公众号导流工具的概率，有效�
 ![](https://www.techgrow.cn/uploads/2022/02/28/3f53ab36dfa84fb99a6508ae46e5373a.png)
 
 
-欢迎关注我的公众号“**全栈技术驿站**”，全栈开发的最新技术和最新动态第一时间推送。
+欢迎关注我的公众号“**全栈技术驿站**”，第一时间推送全栈开发的最新动态！
 
 <center>
     <img src="https://www.techgrow.cn/img/wx_mp_qr.png" style="width: 100px;">

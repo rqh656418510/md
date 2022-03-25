@@ -387,7 +387,7 @@ export default {
         // 输出提示
         this.$notify({
           showClose: true,
-          message: `已复制渲染后的文章到剪贴板，可直接到公众号后台粘贴`,
+          message: `已复制渲染后的文章到剪贴板，可直接到微信公众号后台粘贴`,
           offset: 80,
           duration: 1600,
           type: `success`,
