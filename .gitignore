@@ -47,3 +47,6 @@ package-lock.json
 public/upload/**
 !public/upload/*.gitkeep
 .history
+
+# shell
+shell/deploy.sh

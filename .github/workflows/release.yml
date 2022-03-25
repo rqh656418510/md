@@ -23,7 +23,7 @@ jobs:
           body: |
             # 微信 Markdown 编辑器 ${{ github.ref }} 发布🎈
 
-            [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/doocs/md/releases) [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/doocs/md/releases)
+            [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/rqh656418510/md/releases) [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/doocs/md/releases)
 
             > Markdown 文档自动即时渲染为微信图文，让你不再为微信文章排版而发愁！
 

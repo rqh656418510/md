@@ -206,6 +206,7 @@
         placement="bottom-start"
         >复制</el-button
       >
+      <!--
       <el-button
         :type="btnType"
         plain
@@ -214,6 +215,7 @@
         placement="bottom-start"
         >发布</el-button
       >
+      -->
       <el-button
         :type="btnType"
         plain

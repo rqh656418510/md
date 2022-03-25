@@ -38,14 +38,14 @@ export default {
   ],
   colorOption: [
     {
-      label: `经典蓝`,
-      value: `rgba(15, 76, 129, 1)`,
-      desc: `最新流行`,
-    },
-    {
       label: `翡翠绿`,
       value: `rgba(0, 152, 116, 1)`,
       desc: `优雅清新`,
+    },
+    {
+      label: `经典蓝`,
+      value: `rgba(15, 76, 129, 1)`,
+      desc: `最新流行`,
     },
     {
       label: `活力橘`,
@@ -55,28 +55,28 @@ export default {
   ],
   codeThemeOption: [
     {
+      label: `atom-one-dark`,
+      value: `/plugins/highlightjs-11.4.0/atom-one-dark.min.css`,
+      desc: `dark`,
+    },
+    {
       label: `github`,
-      value: `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github.min.css`,
+      value: `/plugins/highlightjs-11.4.0/github.min.css`,
       desc: `light`,
     },
     {
       label: `solarized-light`,
-      value: `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/solarized-light.min.css`,
+      value: `/plugins/highlightjs-11.4.0/solarized-light.min.css`,
       desc: `light`,
     },
     {
-      label: `atom-one-dark`,
-      value: `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css`,
-      desc: `dark`,
-    },
-    {
       label: `obsidian`,
-      value: `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/obsidian.min.css`,
+      value: `/plugins/highlightjs-11.4.0/obsidian.min.css`,
       desc: `dark`,
     },
     {
       label: `vs2015`,
-      value: `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/vs2015.min.css`,
+      value: `/plugins/highlightjs-11.4.0/vs2015.min.css`,
       desc: `dark`,
     },
   ],
