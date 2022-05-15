@@ -119,10 +119,13 @@ util.axios
 # 安装依赖
 npm i
 
-# 启动开发模式（通过 /md 访问）
+# 启动开发模式
 npm start
 
 # 构建生产环境（通过 / 访问）
+npm run build:h5-netlify
+
+# 构建生产环境（通过 /md 访问）
 npm run build
 ```
 
