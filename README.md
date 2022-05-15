@@ -47,13 +47,12 @@ Markdown 文档自动即时渲染为微信图文，让你不再为微信文章�
 | #   | 图床                                            | 使用时是否需要配置                                                         | 备注                                                                                                                   |
 | --- | ----------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | 1   | 默认                                            | 否                                                                         | -                                                                                                                      |
-| 2   | [Gitee](https://gitee.com)                      | 配置 `Repo`、`Token` 参数                                                  | 图片超过 1MB 无法正常展示                                                                                              |
-| 3   | [GitHub](https://github.com)                    | 配置 `Repo`、`Token` 参数                                                  | [如何获取 GitHub token？](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) |
-| 4   | [阿里云](https://www.aliyun.com/product/oss)    | 配置 `AccessKey ID`、`AccessKey Secret`、`Bucket`、`Region` 参数           | [如何使用阿里云 OSS？](https://help.aliyun.com/document_detail/31883.html)                                             |
-| 5   | [腾讯云](https://cloud.tencent.com/act/pro/cos) | 配置 `SecretId`、`SecretKey`、`Bucket`、`Region` 参数                      | [如何使用腾讯云 COS？](https://cloud.tencent.com/document/product/436/38484)                                           |
-| 6   | [七牛云](https://www.qiniu.com/products/kodo)   | 配置 `AccessKey`、`SecretKey`、`Bucket`、`Domain`、`Region` 参数           | [如何使用七牛云 Kodo？](https://developer.qiniu.com/kodo)                                                              |
-| 7   | [MinIO](https://min.io/)                        | 配置 `Endpoint`、`Port`、`UseSSL`、`Bucket`、`AccessKey`、`SecretKey` 参数 | [如何使用 MinIO？](http://docs.minio.org.cn/docs/master/minio-client-complete-guide)                                   |
-| 8   | 自定义上传                                      | 是                                                                         | [如何自定义上传？](#自定义上传逻辑)                                                                                    |
+| 2   | [GitHub](https://github.com)                    | 配置 `Repo`、`Token` 参数                                                  | [如何获取 GitHub token？](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) |
+| 3   | [阿里云](https://www.aliyun.com/product/oss)    | 配置 `AccessKey ID`、`AccessKey Secret`、`Bucket`、`Region` 参数           | [如何使用阿里云 OSS？](https://help.aliyun.com/document_detail/31883.html)                                             |
+| 4   | [腾讯云](https://cloud.tencent.com/act/pro/cos) | 配置 `SecretId`、`SecretKey`、`Bucket`、`Region` 参数                      | [如何使用腾讯云 COS？](https://cloud.tencent.com/document/product/436/38484)                                           |
+| 5   | [七牛云](https://www.qiniu.com/products/kodo)   | 配置 `AccessKey`、`SecretKey`、`Bucket`、`Domain`、`Region` 参数           | [如何使用七牛云 Kodo？](https://developer.qiniu.com/kodo)                                                              |
+| 6   | [MinIO](https://min.io/)                        | 配置 `Endpoint`、`Port`、`UseSSL`、`Bucket`、`AccessKey`、`SecretKey` 参数 | [如何使用 MinIO？](http://docs.minio.org.cn/docs/master/minio-client-complete-guide)                                   |
+| 7   | 自定义上传                                      | 是                                                                         | [如何自定义上传？](#自定义上传逻辑)                                                                                    |
 
 ![select-and-change-color-theme](https://doocs.oss-cn-shenzhen.aliyuncs.com/img//1606034542281-a8c99fa7-c11e-4e43-98da-e36012f54dc8.gif)
 
@@ -65,7 +64,8 @@ Markdown 文档自动即时渲染为微信图文，让你不再为微信文章�
 
 ## 注意事项
 
-如果你使用了某些浏览器脚本修改了网页背景色，可能导致渲染后的文章出现背景色分块的现象，详见 [#63](https://github.com/doocs/md/issues/63)。
+1. 如果你使用了某些浏览器脚本修改了网页背景色，可能导致渲染后的文章出现背景色分块的现象，详见 [#63](https://github.com/doocs/md/issues/63)。
+2. 某些浏览器插件，会对文章样式造成破坏。现象是：复制粘贴到公众号后台文章，点击保存时，样式丢失，详见 [#151](https://github.com/doocs/md/issues/151)。
 
 ## 自定义上传逻辑
 
@@ -119,7 +119,7 @@ util.axios
 # 安装依赖
 npm i
 
-# 启动开发模式
+# 启动开发模式（通过 /md 访问）
 npm start
 
 # 构建生产环境（通过 / 访问）
@@ -361,6 +361,20 @@ docker run -d -p 8080:80 doocs/md:latest
       <a href="https://mp.weixin.qq.com/s/4QeZsTL84lbN_HO3kCwEwg">
         <img src="https://cdn.jsdelivr.net/gh/filess/img16@main/2022/01/30/1643545315140-74a6b958-e175-44cc-a751-877c8cb997f7.png" style="width: 40px;"><br>
         <sub>Dmego</sub>
+      </a>
+    </td>
+    <td align="center" style="width: 60px;">
+      <a href="https://mp.weixin.qq.com/s/_cNyKqRr8E1ENg9r7IO70Q">
+        <img src="https://cdn.jsdelivr.net/gh/filess/img7@main/2022/04/15/1649987014805-5603399b-a3c0-4f28-b569-b08d64e7187a.png" style="width: 40px;"><br>
+        <sub>红岸</sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="width: 60px;">
+      <a href="https://mp.weixin.qq.com/s/ekCoyhT-JjbYsysKBgdJzQ">
+        <img src="https://cdn.jsdelivr.net/gh/filess/img6@main/2022/04/15/1649987014808-6091327c-d2ea-4e9d-9dcc-ce91f18fb2e0.png" style="width: 40px;"><br>
+        <sub>HelloCoder</sub>
       </a>
     </td>
   </tr>
