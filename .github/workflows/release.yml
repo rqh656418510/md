@@ -21,7 +21,7 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref }}
           body: |
-            # 微信 Markdown 编辑器 ${{ github.ref }} 发布🎈
+            # 公众号 Markdown 编辑器 ${{ github.ref }} 发布🎈
 
             [![github](https://badgen.net/badge/>>/GitHub/cyan)](https://github.com/rqh656418510/md/releases) [![gitee](https://badgen.net/badge/>>/Gitee/cyan)](https://gitee.com/doocs/md/releases)
 

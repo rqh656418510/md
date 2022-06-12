@@ -8,7 +8,7 @@
     center
   >
     <div style="text-align: center">
-      <h3>一款高度简洁的微信 Markdown 编辑器</h3>
+      <h3>一款高度简洁的公众号 Markdown 编辑器</h3>
     </div>
     <div style="text-align: center; margin-top: 10px">
       <p>扫码关注我的微信公众号，第一时间推送全栈开发的最新动态！</p>

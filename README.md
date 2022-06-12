@@ -4,7 +4,7 @@
 
 </div>
 
-<h1 align="center">微信 Markdown 编辑器</h1>
+<h1 align="center">公众号 Markdown 编辑器</h1>
 
 <div align="center">
 
@@ -26,9 +26,9 @@ Markdown 文档自动即时渲染为微信图文，让你不再为微信文章�
 
 ## 为何二次开发
 
-现有的开源微信 Markdown 编辑器，样式繁杂，也不符合我个人的审美需求。在我使用它们进行文章排版的时候，经常还要自己做一些改动，费时费力，因此动手做了二次开发。
+现有的开源公众号 Markdown 编辑器，样式繁杂，也不符合我个人的审美需求。在我使用它们进行文章排版的时候，经常还要自己做一些改动，费时费力，因此动手做了二次开发。
 
-欢迎各位朋友随时提交 PR，让这款微信 Markdown 编辑器变得更好！如果你有新的想法，也欢迎在 [Discussions 讨论区](https://github.com/doocs/md/discussions)反馈。
+欢迎各位朋友随时提交 PR，让这款公众号 Markdown 编辑器变得更好！如果你有新的想法，也欢迎在 [Discussions 讨论区](https://github.com/doocs/md/discussions)反馈。
 
 ## 功能特性
 
@@ -133,7 +133,7 @@ npm run build
 
 ### 方式 1. 使用 npm cli
 
-通过我们的 npm cli 你可以轻易搭建属于自己的微信 Markdown 编辑器。
+通过我们的 npm cli 你可以轻易搭建属于自己的公众号 Markdown 编辑器。
 
 ```sh
 # 安装
