@@ -20,9 +20,10 @@ Markdown 文档自动即时渲染为微信图文，让你不再为微信文章�
 
 ## 在线编辑器地址
 
-- Techgrow：https://tool.techgrow.cn
+- Gitee Pages：https://doocs.gitee.io/md
+- GitHub Pages：https://doocs.github.io/md
 
-注：推荐使用 Chrome 浏览器，效果最佳。
+注：推荐使用 Chrome 浏览器，效果最佳。另外，对于国内（中国）的朋友，访问 [Gitee Pages](https://doocs.gitee.io/md) 速度会相对快一些。
 
 ## 为何二次开发
 
